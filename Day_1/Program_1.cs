@@ -15,5 +15,11 @@ namespace Day_1
         char
         */
 
+        /*
+        conditional statements/controll flow statement
+        if-else -provides single condition checking facilities
+        switch -provide mutliple condition checking facilities
+        */
+
     }
 }
