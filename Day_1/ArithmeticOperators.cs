@@ -5,41 +5,9 @@ using System.Threading.Tasks;
 
 namespace Day_1
 {
-    public class Program_1
+    public class ArthmaticOperator
     {
-        /*datatypes
-        int 
-        String
-        bool
-        double
-        char
-        */
-
-        /*
-        conditional statements/controll flow statement
-        if-else -provides single condition checking facilities
-        switch -provide mutliple condition checking facilities
-        */
-
-        /*
-        loops
-        we have three type off loops in c#
-        -for loops
-        -while loops
-        -do-while loops
-        */
-
-        /*
-        Methods and functions in C#
-        Methods encapsulate a block of code that performs a specific task. They can have input parameters and can return a value. Functions are similar to methods but are not associated with a specific class.
-        - it is also support method overriding
-        
-        */
-
-
-// *********************************************************************************************************************
-        // code
-        /*public static void Main(string[] args)
+         public static void Main(string[] args)
         {
              Console.WriteLine("Enter your first Number :");
             String fNumber = Console.ReadLine();
@@ -59,24 +27,29 @@ namespace Day_1
             Console.WriteLine($"Multiplication:{a} * {b} = {mult}");
 
             double dvd = divide( a, b);
-            Console.WriteLine($"Division:{a} * {b} = {dvd}");
+            Console.WriteLine($"Division:{a} / {b} = {dvd}");
         }
 
+
+        //it will add a to b;
         public static int add(int a,int b){
             return a+b;
         } 
 
+        //it will substract a to b;
         public static int substract(int a,int b){
             return a-b;
         } 
 
+        //it will multiply a to b;
         public static int multiply(int a,int b){
             return a*b;
         } 
 
+
+        //it will divide a to b;
         public static double divide(int a,int b){
             return a/b;
-        } */
-
+        } 
     }
 }
