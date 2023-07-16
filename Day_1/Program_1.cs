@@ -21,5 +21,13 @@ namespace Day_1
         switch -provide mutliple condition checking facilities
         */
 
+        /*
+        loops
+        we have three type off loops in c#
+        -for loops
+        -while loops
+        -do-while loops
+        */
+
     }
 }
